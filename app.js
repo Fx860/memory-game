@@ -1,7 +1,7 @@
 const cardArray = [
     {
         name: 'Yoda',
-        img: 'images/Yoda3.png',
+        img: 'images/Yoda0.png',
 },
     {
         name: 'Rey',
@@ -50,7 +50,7 @@ const cardArray = [
     
 {
     name: 'Yoda',
-    img: 'images/Yoda3.png',
+    img: 'images/Yoda0.png',
 },
 {
     name: 'Rey',
