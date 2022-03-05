@@ -1,6 +1,7 @@
 body {
-    background-color: black;
-    overflow-y:none;
+    background: url(./images/stars-glare-black-space.jpg);
+    text-align: center;
+    
 }
     
 
@@ -14,6 +15,9 @@ h3 {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
+    
+}
 
-
+img {
+    align-items: center;
 }
