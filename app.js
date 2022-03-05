@@ -99,10 +99,24 @@ const cardArray = [
 
 ]
 
-// console.log(cardArray)
-
 cardArray.sort( () => 0.5 - Math.random()  )
 
-console.log(cardArray)
+const gridDisplay = document.querySelector('#grid') 
   
+
+//create your board
+function crateBoard() {
+    for (let i = 0; i < cardArray.length; i++) {
+        const card = document.createElement('img')
+        card.setAttribute('src', 'images/blank.png')
+        card.setAttribute('data-id', i)
+        gridDisplay.appendChild(card)  
+
+        
+    }
+
+}
+crateBoard()
+
+
 
