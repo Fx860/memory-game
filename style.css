@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-y:none;
 }
     
 
@@ -10,7 +11,7 @@ h3 {
 #grid {
    
     width: 1200px;
-    height: 800px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
 
