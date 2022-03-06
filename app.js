@@ -105,7 +105,7 @@ const gridDisplay = document.querySelector('#grid')
 const cardChosen = []
   
 
-//create your board
+
 function crateBoard() {
     for (let i = 0; i < cardArray.length; i++) {
         const card = document.createElement('img')
@@ -132,6 +132,3 @@ this.setAttribute('src', cardArray[cardid].img)
 
 
 }
-
-
-
