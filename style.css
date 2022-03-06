@@ -2,19 +2,19 @@ body {
     background: url(./images/stars-glare-black-space.jpg);
     text-align: center;
     
-}
+  }
     
-
-h3 {
+  
+  h3 {
     color:white;
-}
-
-#grid {
+    font-size: 40px;
+  }
+  
+  .grid {
    
     width: 1200px;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
     
-}
-
+  }
